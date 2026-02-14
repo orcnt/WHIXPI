@@ -33,9 +33,12 @@ It leverages state-of-the-art AI models — OpenAI's Whisper for transcription, 
 ### Portable Edition (Recommended)
 A fully self-contained package. No installation required. Includes the Whisper Large-v3 model and FFmpeg.
 
-- **File:** `WHIXPI_v1.0_Final_Portable.zip`
-- **Usage:** Extract the ZIP → run `WHIXPI.exe`.
-- **Size:** ~6 GB (includes AI model)
+- **Files (Split due to GitHub limits):**
+  - `WHIXPI_v1.0_Taşınabilir-Portable.7z.001`
+  - `WHIXPI_v1.0_Taşınabilir-Portable.7z.002`
+  - `WHIXPI_v1.0_Taşınabilir-Portable.7z.003`
+- **Usage:** Download all parts into the same folder. Right-click on the **.001** file and select "Extract Here" (using 7-Zip or WinRAR).
+- **Size:** ~6 GB total (includes AI model)
 
 ### Source Code Edition (For Developers)
 Run directly from Python source code.

@@ -33,9 +33,12 @@ Arka planda OpenAI'ın Whisper modelini (konuşma tanıma), Meta'nın Wav2Vec2 m
 ### Taşınabilir Sürüm (Önerilen)
 Hiçbir kurulum gerektirmez. İçerisinde Whisper Large-v3 modeli ve FFmpeg araçları hazır olarak gelir.
 
-- **Dosya:** `WHIXPI_v1.0_Final_Portable.zip`
-- **Kullanım:** ZIP dosyasını açın → `WHIXPI.exe` dosyasını çalıştırın.
-- **Boyut:** ~6 GB (yapay zeka modeli dahil)
+- **Dosyalar (GitHub limitinden dolayı bölünmüştür):**
+  - `WHIXPI_v1.0_Taşınabilir-Portable.7z.001`
+  - `WHIXPI_v1.0_Taşınabilir-Portable.7z.002`
+  - `WHIXPI_v1.0_Taşınabilir-Portable.7z.003`
+- **Kullanım:** Tüm parçaları aynı klasöre indirin. **.001** uzantılı dosyaya sağ tıklayın ve "Buraya Ayıkla" (7-Zip veya WinRAR ile) seçeneğini kullanın.
+- **Boyut:** ~6 GB toplam (yapay zeka modeli dahil)
 
 ### Kaynak Kod Sürümü (Geliştiriciler İçin)
 Doğrudan Python ortamında çalıştırma.
