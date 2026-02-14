@@ -1,5 +1,9 @@
 # WHIXPI v1.0
 
+> **[🇹🇷 Türkçe Dokümantasyon için Tıklayın (BENI_OKU.md)](BENI_OKU.md)**
+
+
+
 <div align="center">
 
 **Professional Video & Audio Transcription Studio**

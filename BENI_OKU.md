@@ -1,5 +1,9 @@
 # WHIXPI v1.0
 
+> **[🇺🇸 Click for English Documentation (README.md)](README.md)**
+
+
+
 <div align="center">
 
 **Profesyonel Video & Ses Transkripsiyon Stüdyosu**
