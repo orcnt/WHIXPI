@@ -1,0 +1,53 @@
+This is free and unencumbered software released into the public domain.
+
+Original Creator: Alparslan Orçun Tarhan
+
+--- Developer's Personal Note / Geliştiricinin Kişisel Notu ---
+
+EN: All rights to this program are free and open. You can take it and
+    do whatever you want with it — modify, sell, distribute, learn from
+    it, build upon it. If you mention my name somewhere, I'd appreciate
+    it, but it's completely optional. Enjoy!
+
+TR: Bu programın tüm hakları serbesttir. Programı alıp istediğinizi
+    yapabilirsiniz — değiştirin, satın, dağıtın, öğrenin, üzerine
+    inşa edin. İsmimi bir yerde geçirirseniz sevinirim ama bu tamamen
+    opsiyoneldir. Keyifle kullanın!
+
+---
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <https://unlicense.org>
+
+---
+
+IMPORTANT NOTICE REGARDING THIRD-PARTY COMPONENTS:
+
+While the WHIXPI application code itself is released into the public
+domain under The Unlicense, this software incorporates and/or
+distributes third-party components that are subject to their own
+respective licenses. Users who modify or redistribute this software
+must comply with the licenses of these third-party components.
+
+See README.md for a complete list of third-party components and their
+licenses.

@@ -1,0 +1,47 @@
+# ============================================================
+# WHIXPI v1.0 - Python Dependencies
+# ============================================================
+#
+# IMPORTANT: Before installing these, you must first install:
+#
+#   1. PyTorch with CUDA support:
+#      pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+#   2. WhisperX (from GitHub):
+#      pip install git+https://github.com/m-bain/whisperx.git
+#
+#   These two are NOT listed below because they require special
+#   installation commands and cannot be installed via a plain
+#   "pip install -r requirements.txt".
+#
+# After installing PyTorch and WhisperX, run:
+#   pip install -r requirements.txt
+#
+# ============================================================
+
+# --- UI Framework ---
+customtkinter           # Modern Tkinter UI framework (dark/light themes)
+Pillow                  # Image processing for icons and logos (PIL fork)
+
+# --- Scientific Computing ---
+numpy                   # Numerical arrays and math operations
+scipy                   # Scientific computing (used by audio processing)
+
+# --- AI / NLP ---
+transformers            # Hugging Face model loading and tokenization
+
+# --- Media Processing ---
+ffmpeg-python           # Python bindings for FFmpeg commands
+
+# ============================================================
+# ALREADY INSTALLED AS DEPENDENCIES OF WHISPERX:
+# (No need to install these separately)
+#
+#   torch               # PyTorch deep learning framework
+#   torchaudio          # Audio processing for PyTorch
+#   faster-whisper      # CTranslate2-based Whisper inference
+#   ctranslate2         # Fast transformer inference engine
+#   pyannote.audio      # Speaker diarization (optional)
+#   speechbrain         # Speech processing toolkit
+#   huggingface_hub     # Model downloading from Hugging Face
+# ============================================================

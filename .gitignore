@@ -1,0 +1,139 @@
+# ============================================================
+# WHIXPI v1.0 - .gitignore
+# ============================================================
+#
+# BU DOSYA NE YAPAR?
+# ------------------
+# Git (GitHub, GitLab vb.) ile projenizi paylaşırken,
+# hangi dosya ve klasörlerin YÜKLENMEMESI gerektiğini belirler.
+#
+# Neden önemlidir?
+# 1. Yapay zeka modelleri (3-4 GB) GitHub'a yüklenmez -> Hız ve kota tasarrufu
+# 2. Sanal ortamlar (venv) yüklenmez -> Herkes kendi ortamını kurar
+# 3. Kişisel ayarlar paylaşılmaz -> Her kullanıcı kendi ayarlarını yapar
+# 4. Derlenmiş dosyalar (EXE) yüklenmez -> Sadece kaynak kod paylaşılır
+#
+# Bir satırın başına # koyarsanız o satır yorum olur (görmezden gelinir).
+# Bir dosya veya klasör adı yazarsanız, Git o dosyayı yok sayar.
+# Yıldız (*) işareti "herhangi bir şey" anlamına gelir.
+#   Örnek: *.mp4 = "uzantısı .mp4 olan TÜM dosyaları yok say"
+# Eğik çizgi (/) ile biten isimler klasördür.
+#   Örnek: output/ = "output adlı klasörü (ve içindekileri) yok say"
+#
+# ============================================================
+
+
+# =========================
+# PYTHON ORTAMI
+# =========================
+# Python çalışırken otomatik oluşturduğu geçici dosyalar.
+# Bunlar sizin kodunuz DEĞİLDİR, Python'un kendi işleri için ürettiği dosyalardır.
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Sanal ortam klasörleri.
+# Her geliştirici kendi bilgisayarında "pip install" yaparak kendi ortamını kurar.
+# Bu klasörler 500MB-2GB arası olabilir, GitHub'a yüklemek anlamsızdır.
+env/
+venv/
+venv_whisperx/
+ENV/
+.env
+.venv
+
+
+# =========================
+# YAPAY ZEKA MODELLERİ
+# =========================
+# Whisper Large-v3 modeli tek başına ~3 GB.
+# Bu modeller GitHub'a yüklenmez; program ilk açılışta otomatik indirir.
+models/
+*.pt
+*.bin
+*.safetensors
+*.onnx
+
+
+# =========================
+# DERLEME VE DAĞITIM
+# =========================
+# PyInstaller ile üretilen EXE ve geçici dosyalar.
+# Bunlar kaynak koddan yeniden üretilebilir.
+build/
+dist/
+*.manifest
+*.spec
+Installer_Output/
+
+
+# =========================
+# KULLANICI VERİLERİ
+# =========================
+# Kullanıcının kişisel ayarları, çıktıları ve geçici dosyaları.
+# Her kullanıcı kendi ayarlarını yapar, başkasının ayarı işe yaramaz.
+settings.json
+output/
+temp/
+*.log
+
+
+# =========================
+# MEDYA DOSYALARI
+# =========================
+# Test için kullanılan ses/video dosyaları.
+# Bunlar genelde büyük boyutludur ve projenin parçası değildir.
+*.mp4
+*.mp3
+*.wav
+*.m4a
+*.mkv
+*.mov
+*.webm
+*.avi
+*.flac
+*.ogg
+
+
+# =========================
+# CIKTI DOSYALARI
+# =========================
+# Programın ürettiği altyazı ve metin dosyaları.
+# Bunlar kullanıcının kendi verileridir, projeye dahil değildir.
+*.srt
+*.vtt
+
+
+# =========================
+# IDE VE EDİTÖR
+# =========================
+# Visual Studio Code, PyCharm gibi editörlerin kendi ayar dosyaları.
+# Her geliştiricinin editör tercihi farklıdır.
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+
+# =========================
+# İŞLETİM SİSTEMİ
+# =========================
+# Windows ve macOS'un otomatik oluşturduğu gizli dosyalar.
+# Projeyle hiçbir ilgisi yoktur.
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# =========================
+# ESKİ / GEREKSİZ BELGELER
+# =========================
+# Geliştirme sürecinde oluşturulan ama yayınla ilgisi olmayan belgeler.
+WHIXPI_Distribution_Strategy.md
+WHIXPI_IYILESTIRME_RAPORU.md
+
+# Large Binaries
+bin/*.exe

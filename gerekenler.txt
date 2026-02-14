@@ -1,0 +1,47 @@
+# ============================================================
+# WHIXPI v1.0 - Python Bağımlılıkları
+# ============================================================
+#
+# ÖNEMLİ: Bu dosyayı kullanmadan ÖNCE şunları kurmanız gerekir:
+#
+#   1. PyTorch (CUDA destekli):
+#      pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+#   2. WhisperX (GitHub'dan):
+#      pip install git+https://github.com/m-bain/whisperx.git
+#
+#   Bu ikisi aşağıda listelenmemiştir çünkü özel kurulum
+#   komutları gerektirirler ve düz bir "pip install -r"
+#   komutuyla kurulamazlar.
+#
+# PyTorch ve WhisperX'i kurduktan sonra şunu çalıştırın:
+#   pip install -r gerekenler.txt
+#
+# ============================================================
+
+# --- Arayüz Çerçevesi ---
+customtkinter           # Modern Tkinter arayüz çerçevesi (koyu/açık tema)
+Pillow                  # İkon ve logo işleme (PIL çatalı)
+
+# --- Bilimsel Hesaplama ---
+numpy                   # Sayısal diziler ve matematik işlemler
+scipy                   # Bilimsel hesaplama (ses işlemede kullanılır)
+
+# --- Yapay Zeka / Doğal Dil İşleme ---
+transformers            # Hugging Face model yükleme ve tokenizasyon
+
+# --- Medya İşleme ---
+ffmpeg-python           # FFmpeg komutları için Python bağlamaları
+
+# ============================================================
+# WHISPERX BAĞIMLILİĞI OLARAK ZATEN KURULANLAR:
+# (Bunları ayrıca kurmanıza gerek yoktur)
+#
+#   torch               # PyTorch derin öğrenme çerçevesi
+#   torchaudio          # PyTorch için ses işleme
+#   faster-whisper      # CTranslate2 tabanlı Whisper çıkarımı
+#   ctranslate2         # Hızlı transformer çıkarım motoru
+#   pyannote.audio      # Konuşmacı ayrıştırma (opsiyonel)
+#   speechbrain         # Ses işleme araç takımı
+#   huggingface_hub     # Hugging Face'ten model indirme
+# ============================================================
