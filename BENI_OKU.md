@@ -1,6 +1,6 @@
 # WHIXPI v1.0
 
-> **[🇺🇸 English Documentation (README.md)](README.md)** | **[📝 Geliştiricinin Notu (Orçun)](ORCUN_NOT.md)**
+> **[🇺🇸 English Documentation (README.md)](README.md)** | **[📝 Orçun'dan Samimi Açıklamalar ](ORCUN_NOT.md)**
 
 
 

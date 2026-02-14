@@ -1,6 +1,6 @@
 # WHIXPI v1.0
 
-> **[🇹🇷 Türkçe Dokümantasyon (BENI_OKU.md)](BENI_OKU.md)** | **[📝 Geliştiricinin Notu (Orçun)](ORCUN_NOT.md)**
+> **[🇹🇷 Türkçe Dokümantasyon (BENI_OKU.md)](BENI_OKU.md)** | **[📝 Orçun'dan Samimi Açıklamalar (No English Between)](ORCUN_NOT.md)**
 
 
 
