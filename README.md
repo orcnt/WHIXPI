@@ -1,5 +1,9 @@
 # WHIXPI v1.0
 
+<div align="center">
+  <img src="resources/new_logo.png" alt="WHIXPI Logo" width="50%">
+</div>
+
 > **[🇹🇷 Türkçe Dokümantasyon için Tıklayın (BENI_OKU.md)](BENI_OKU.md)**
 
 
