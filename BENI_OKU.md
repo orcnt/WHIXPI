@@ -1,4 +1,4 @@
-# WHIXPI v1.0
+# <img src="resources/new_logo.png" height="35"> WHIXPI v1.0
 
 > **[🇺🇸 English Documentation (README.md)](README.md)** | **[📝 Orçun'dan Samimi Açıklamalar ](ORCUN_NOT.md)**
 

@@ -1,4 +1,4 @@
-# WHIXPI v1.0
+# <img src="resources/new_logo.png" height="35"> WHIXPI v1.0
 
 > **[🇹🇷 Türkçe Dokümantasyon (BENI_OKU.md)](BENI_OKU.md)** | **[📝 Orçun'dan Samimi Açıklamalar (No English Between)](ORCUN_NOT.md)**
 
