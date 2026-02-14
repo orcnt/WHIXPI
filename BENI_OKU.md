@@ -1,10 +1,6 @@
 # WHIXPI v1.0
 
-<div align="center">
-  <img src="resources/new_logo.png" alt="WHIXPI Logo" width="50%">
-</div>
-
-> **[🇺🇸 Click for English Documentation (README.md)](README.md)**
+> **[🇺🇸 English Documentation (README.md)](README.md)** | **[📝 Geliştiricinin Notu (Orçun)](ORCUN_NOT.md)**
 
 
 
